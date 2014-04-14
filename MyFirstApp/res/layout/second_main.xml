@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="right">"
+
+            <Button
+                android:id="@+id/upload_buttom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="Upload" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+            <EditText
+            android:id="@+id/search_text"
+            android:layout_margin="20dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="search file name" 
+            />
+
+            <Button
+                android:id="@+id/search_buttom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="Search" />
+
+            <ImageView
+                android:id="@+id/searchresult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:src="@drawable/tet"/>
+
+</LinearLayout>
